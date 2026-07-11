@@ -1,3 +1,6 @@
+# यहाँ अपना रेस्टोरेंट का नाम, मेन्यू और नंबर डालो
+# अपनी पसंद के हिसाब से नीचे वाली लाइनों में बदलाव कर लो
+cat << 'HTML' > index.html
 <!DOCTYPE html>
 <html lang="hi">
 <head>
@@ -23,3 +26,9 @@
     </main>
 </body>
 </html>
+HTML
+
+# गिटहब पर अपडेट भेजें
+git add .
+git commit -m "रेस्टोरेंट का नाम, मेन्यू और नंबर अपडेट किया"
+git push origin master
