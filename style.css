@@ -1,7 +1,7 @@
 body { background-color: #fdf5e6; font-family: sans-serif; padding: 20px; }
 .menu-container { background: #fffaf0; padding: 40px; border-radius: 40px; border: 5px solid #d4af37; }
 .title { font-size: 5rem; color: #8b4513; text-align: center; }
-.location { font-size: 2.5rem; color: #555; text-align: center; font-weight: bold; }
+.location { font-size: 3rem; color: #d63031; text-align: center; font-weight: bold; margin-bottom: 30px; }
 h2 { font-size: 4rem; color: #d63031; margin-top: 40px; border-bottom: 3px solid #d4af37; }
 p { font-size: 3rem; line-height: 1.8; color: #333; font-weight: bold; margin: 15px 0; }
 .call-btn { 
