@@ -1,6 +1,7 @@
 body { background-color: #fdf5e6; font-family: sans-serif; padding: 20px; }
 .menu-container { background: #fffaf0; padding: 40px; border-radius: 40px; border: 5px solid #d4af37; }
 .title { font-size: 5rem; color: #8b4513; text-align: center; }
+.tagline { font-size: 2.5rem; color: #8b4513; text-align: center; font-style: italic; font-weight: bold; margin-top: -20px; margin-bottom: 20px; }
 .loc { font-size: 3rem; color: #d63031; text-align: center; font-weight: bold; margin-bottom: 30px; }
 h2 { font-size: 4rem; color: #d63031; margin-top: 40px; border-bottom: 4px solid #d4af37; }
 p { font-size: 3rem; line-height: 2.2; color: #000; font-weight: bold; margin: 20px 0; }
