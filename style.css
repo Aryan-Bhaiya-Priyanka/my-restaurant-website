@@ -1,26 +1,26 @@
 body { 
     background: #fad0c4; 
-    font-family: Arial, sans-serif; 
+    font-family: 'Arial', sans-serif; 
     padding: 20px; 
     text-align: center;
 }
 .menu-container { 
     background: white; 
-    padding: 40px; 
+    padding: 50px; 
     border-radius: 20px; 
-    max-width: 100%; 
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
 }
-h1 { font-size: 3rem; color: #d63031; }
-h2 { font-size: 2.5rem; border-bottom: 2px solid #333; padding-bottom: 10px; }
-h3 { font-size: 2rem; color: #d63031; margin-top: 30px; }
-p { font-size: 1.8rem; line-height: 1.5; margin: 15px 0; color: #000; font-weight: bold; }
+h1 { font-size: 4.5rem; color: #d63031; margin-bottom: 30px; }
+h2 { font-size: 3.5rem; color: #2d3436; margin-bottom: 30px; border-bottom: 3px solid #000; }
+p { font-size: 2.8rem; line-height: 1.4; margin: 20px 0; color: #000; font-weight: bold; }
 .call-btn { 
     display: block; 
-    padding: 30px; 
+    padding: 40px; 
     background: #27ae60; 
     color: white; 
     text-decoration: none; 
-    font-size: 2.2rem; 
-    border-radius: 15px; 
-    margin-top: 40px; 
+    font-size: 3rem; 
+    border-radius: 20px; 
+    margin-top: 50px; 
+    font-weight: bold;
 }
