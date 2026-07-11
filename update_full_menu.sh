@@ -1,0 +1,46 @@
+cat << 'HTML' > index.html
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IQ Restaurant Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>IQ RESTAURANT</h1>
+        <p>Authentic Tandoori & Chinese Flavours</p>
+    </header>
+    <main>
+        <section id="menu">
+            <h2>हमारा पूरा मेन्यू</h2>
+            
+            <h3>स्पेशल डिशेस</h3>
+            <p>चिकन अल्फा, चिकन सीख कबाब, चिकन तंदूरी, पनीर टिक्का</p>
+
+            <h3>सूप (Veg/Non-Veg)</h3>
+            <p>Veg/Chicken Manchow, Hot & Sour, Ginger/Garlic Ginger Soup</p>
+
+            <h3>स्टार्टर (Non-Veg)</h3>
+            <p>Chicken Chilli, Satay, Crispy, Lollipop, Lemon, Tikka, Tandoori (Full/Half), Seekh Kebab</p>
+
+            <h3>मेन कोर्स (Gravy)</h3>
+            <p>Chicken Masala, Kolhapuri, Butter Chicken, Hyderabadi, Kadai</p>
+            
+            <h3>साउथ इंडियन & राइस</h3>
+            <p>Egg/Chicken Biryani, Fried Rice (Schezwan/Triple), Noodles (Schezwan/Triple)</p>
+        </section>
+
+        <section id="contact">
+            <br>
+            <a href="tel:+917757896296" class="call-btn">अभी ऑर्डर करने के लिए कॉल करें: 7757896296</a>
+        </section>
+    </main>
+</body>
+</html>
+HTML
+
+git add index.html
+git commit -m "पूरा मेन्यू और स्पेशल डिशेस अपडेट की"
+git push origin master

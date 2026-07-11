@@ -1,34 +1,32 @@
-# यहाँ अपना रेस्टोरेंट का नाम, मेन्यू और नंबर डालो
-# अपनी पसंद के हिसाब से नीचे वाली लाइनों में बदलाव कर लो
 cat << 'HTML' > index.html
 <!DOCTYPE html>
 <html lang="hi">
 <head>
     <meta charset="UTF-8">
-    <title>यहाँ_अपने_रेस्टोरेंट_का_नाम_लिखें</title>
+    <title>IQ Restaurant</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>स्वागत है हमारे रेस्टोरेंट में!</h1>
+        <h1>IQ RESTAURANT</h1>
+        <p>Authentic Tandoori Chinese Flavours</p>
     </header>
     <main>
         <section id="menu">
             <h2>हमारा मेन्यू</h2>
-            <p>1. दाल तड़का - 150 रु</p>
-            <p>2. पनीर बटर मसाला - 250 रु</p>
-            <p>3. स्पेशल रोटी - 20 रु</p>
+            <p><strong>नॉन-वेज स्टार्टर:</strong> Chicken Chilli (190/-), Chicken Lollipop (170/-)</p>
+            <p><strong>मेन कोर्स:</strong> Chicken Biryani (120/150/-), Butter Chicken (200/-)</p>
+            <p>पूरी जानकारी के लिए मेन्यू देखें!</p>
         </section>
         <br>
         <section id="contact">
-            <a href="tel:+919876543210" class="call-btn">अभी कॉल करें (9876543210)</a>
+            <a href="tel:+917757896296" class="call-btn">अभी कॉल करें: 7757896296</a>
         </section>
     </main>
 </body>
 </html>
 HTML
 
-# गिटहब पर अपडेट भेजें
-git add .
-git commit -m "रेस्टोरेंट का नाम, मेन्यू और नंबर अपडेट किया"
+git add index.html
+git commit -m "IQ Restaurant का नाम, नंबर और मेन्यू अपडेट किया"
 git push origin master
